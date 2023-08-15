@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap'); */
 
 *,
 *::after,
@@ -45,10 +45,10 @@ h2 {
   color: #fdfdfd;
 }
 
-p {
-  /* color: #d0d0d1;
-  color: #7b7f86; */
-}
+/* p {
+  color: #d0d0d1;
+  color: #7b7f86;
+} */
 
 .content {
   margin: 0 auto;
