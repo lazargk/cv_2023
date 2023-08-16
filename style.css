@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #323b4c;
+  /* background-color: #323b4c; */
+  background-color: #35251d;
 
   /* font-family: 'Inter', sans-serif; */
 
@@ -25,7 +26,8 @@ h2 {
 }
 
 .bg-grey-light {
-  background-color: #7b7f86;
+  /* background-color: #7b7f86; */
+  background-color: #323b4c;
 }
 
 .bg-grey {
@@ -62,15 +64,18 @@ h2 {
   
 }
 
+/* --------------LEFT SIDE-------------- */
+
 .side-left {
   padding-left: 50px;
   
+  padding-bottom: 50px;
 }
 
 .side-left-top,
 .side-right-top {
   padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   padding-left: 0;
 }
 
@@ -103,9 +108,23 @@ h2 {
   margin-top: 30px;
 }
 
+.expertise-list {
+  padding-left: 20px;
+}
+
+.language-list {
+  list-style: none;
+}
+
+/* --------------RIGHT SIDE-------------- */
+
 .side-right {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.side-right-bottom {
+  padding-bottom: 100px;
 }
 
 .name {
@@ -125,4 +144,38 @@ h2 {
 .line-grey {
   width: 100%;
   height: 2px;
+}
+
+.references-list {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.references-list li {
+  flex-grow: 1;
+  
+}
+
+.references-list address {
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+}
+
+.references-list address .small_name {
+  font-weight: 700;
+
+}
+
+.references-list address .phone {
+  margin-top: 10px;
+}
+
+.references-list address .phone-title,
+.references-list address .email-title {
+  font-weight: 700;
 }
